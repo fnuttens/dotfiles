@@ -1,0 +1,14 @@
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -20
+	st = status
+	fe = fetch --all
+	aliases = config --get-regex alias
+	co = checkout
+	slist = stash list
+	spush = stash push -m
+	spop = stash pop
+	sapp = stash apply
+[merge]
+	conflictstyle = diff3
+[rebase]
+	autoSquash = true
