@@ -4,10 +4,14 @@
 	fe = fetch --all
 	aliases = config --get-regex alias
 	co = checkout
+	br = branch
+	cv = commit -v
+	df = diff
+	cam = commit --amend -v
 	slist = stash list
 	spush = stash push -m
 	spop = stash pop
-	sapp = stash apply
+	sapply = stash apply
 [merge]
 	conflictstyle = diff3
 [rebase]
