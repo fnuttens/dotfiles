@@ -8,7 +8,8 @@
 	co = checkout
 	br = branch
 	cv = commit -v
-	df = diff
+	di = diff
+	diw = diff --word-diff
 	cam = commit --amend -v
 	slist = stash list
 	spush = stash push -m
