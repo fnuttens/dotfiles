@@ -8,14 +8,22 @@
 	co = checkout
 	br = branch
 	cv = commit -v
+	ca = commit --amend
+	cav = commit --amend -v
 	di = diff
 	diw = diff --word-diff
-	cam = commit --amend -v
+	ri = rebase -i
 	slist = stash list
 	spush = stash push -m
 	spop = stash pop
 	sapply = stash apply
 [merge]
 	conflictstyle = diff3
+[gui]
+	encoding = utf-8
 [rebase]
 	autoSquash = true
+[diff]
+	algorithm = histogram
+[pull]
+	ff = only
