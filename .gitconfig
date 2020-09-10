@@ -12,6 +12,7 @@
 	cav = commit --amend -v
 	di = diff
 	diw = diff --word-diff
+	dis = diff --stat
 	ri = rebase -i
 	slist = stash list
 	spush = stash push -m
