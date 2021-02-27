@@ -1,0 +1,25 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.fontFamily": "'Fira Code'",
+	"editor.fontLigatures": "'ss03', 'ss04', 'ss06', 'ss07'",
+	"workbench.colorTheme": "Better Solarized Dark",
+	"extensions.ignoreRecommendations": false,
+	"editor.minimap.enabled": true,
+	"editor.wordWrap": "on",
+	"explorer.confirmDelete": false,
+	"git.ignoreMissingGitWarning": true,
+	"diffEditor.renderSideBySide": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.cursorBlinking": "smooth",
+	"editor.largeFileOptimizations": false,
+	"files.exclude": {
+		"**/.git": false
+	},
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.decorations.colors": true,
+	"workbench.editor.decorations.badges": true,
+	"editor.insertSpaces": false,
+	"[html]": {
+		"editor.tabSize": 2
+	}
+}
