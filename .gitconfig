@@ -1,3 +1,6 @@
+[core]
+	editor = code --wait
+	pager = delta
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -20
 	st = status
@@ -28,3 +31,15 @@
 	algorithm = histogram
 [pull]
 	ff = only
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	features = unobtrusive-line-numbers decorations
+	side-by-side = false
+	syntax-theme = Monokai Extended
+	line-numbers = true
+[delta "decorations"]
+	commit-decoration-style = bold yellow box ul
+	file-style = bold yellow ul
+	file-decoration-style = none
+	hunk-header-decoration-style = yellow box
